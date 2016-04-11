@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "kSortViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[kSortViewController new]];
     return YES;
 }
 

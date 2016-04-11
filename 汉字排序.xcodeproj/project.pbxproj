@@ -15,6 +15,8 @@
 		2976CD501C2D22FB00562055 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2976CD4E1C2D22FB00562055 /* LaunchScreen.storyboard */; };
 		2976CD5B1C2D22FB00562055 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CD5A1C2D22FB00562055 /* ____Tests.m */; };
 		2976CD661C2D22FB00562055 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CD651C2D22FB00562055 /* ____UITests.m */; };
+		2976CD751C2D234300562055 /* kSortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2976CD741C2D234300562055 /* kSortViewController.m */; };
+		2976CD771C2D23E300562055 /* city.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2976CD761C2D23E300562055 /* city.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		2976CD611C2D22FB00562055 /* 汉字排序UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "汉字排序UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2976CD651C2D22FB00562055 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		2976CD671C2D22FB00562055 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2976CD731C2D234300562055 /* kSortViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kSortViewController.h; sourceTree = "<group>"; };
+		2976CD741C2D234300562055 /* kSortViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kSortViewController.m; sourceTree = "<group>"; };
+		2976CD761C2D23E300562055 /* city.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = city.plist; sourceTree = "<group>"; };
+		2976CD801C2D2C5E00562055 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,8 @@
 				2976CD591C2D22FB00562055 /* 汉字排序Tests */,
 				2976CD641C2D22FB00562055 /* 汉字排序UITests */,
 				2976CD3E1C2D22FB00562055 /* Products */,
+				2976CD761C2D23E300562055 /* city.plist */,
+				2976CD801C2D2C5E00562055 /* Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +113,8 @@
 				2976CD441C2D22FB00562055 /* AppDelegate.m */,
 				2976CD461C2D22FB00562055 /* ViewController.h */,
 				2976CD471C2D22FB00562055 /* ViewController.m */,
+				2976CD731C2D234300562055 /* kSortViewController.h */,
+				2976CD741C2D234300562055 /* kSortViewController.m */,
 				2976CD491C2D22FB00562055 /* Main.storyboard */,
 				2976CD4C1C2D22FB00562055 /* Assets.xcassets */,
 				2976CD4E1C2D22FB00562055 /* LaunchScreen.storyboard */,
@@ -247,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2976CD501C2D22FB00562055 /* LaunchScreen.storyboard in Resources */,
+				2976CD771C2D23E300562055 /* city.plist in Resources */,
 				2976CD4D1C2D22FB00562055 /* Assets.xcassets in Resources */,
 				2976CD4B1C2D22FB00562055 /* Main.storyboard in Resources */,
 			);
@@ -275,6 +286,7 @@
 			files = (
 				2976CD481C2D22FB00562055 /* ViewController.m in Sources */,
 				2976CD451C2D22FB00562055 /* AppDelegate.m in Sources */,
+				2976CD751C2D234300562055 /* kSortViewController.m in Sources */,
 				2976CD421C2D22FB00562055 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
